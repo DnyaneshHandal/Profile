@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dnyaneshwar Handal | .NET Technical Lead</title>
+    <title>Dnyaneshwar Handal | .NET Technical Lead & Senior Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <style>
@@ -16,12 +16,13 @@
     <!-- Navigation Header -->
     <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
         <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-            <span class="font-bold tracking-tight text-lg text-cyan-400">DH.</span>
+            <a href="#about" class="font-bold tracking-tight text-lg text-cyan-400">DH.</a>
             <nav class="flex space-x-6 text-sm font-medium text-slate-400">
                 <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
                 <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
                 <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
                 <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
             </nav>
         </div>
     </header>
@@ -31,25 +32,50 @@
 
         <!-- Hero Section -->
         <section id="about" class="space-y-6">
-            <p class="text-cyan-400 font-code text-sm tracking-wide">Building scalable enterprise backends & resilient microservices</p>
+            <div class="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/20 rounded-full px-3 py-1 text-xs font-code text-cyan-400">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span>Open to Remote Senior .NET & Technical Lead Roles</span>
+            </div>
             <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-white">Dnyaneshwar Handal</h1>
             <h2 class="text-xl font-medium text-slate-400">.NET Technical Lead & Senior Software Engineer · 9+ Years Enterprise Experience</h2>
             <p class="text-slate-300 leading-relaxed max-w-2xl">
-                I design and scale high-performance web applications, resilient microservices architectures, and distributed backend systems. Experienced in leading cross-functional engineering teams, optimizing complex database workflows, and delivering mission-critical enterprise and government platforms.
+                I design and scale high-performance web applications, resilient microservices architectures, and distributed backend systems for high-growth product environments. Experienced in leading cross-functional engineering teams, optimizing complex database workflows, and delivering mission-critical enterprise and government platforms.
             </p>
-            <div class="flex items-center space-x-4 pt-2">
+            <div class="flex flex-wrap items-center gap-4 pt-2">
                 <a href="#experience" class="bg-cyan-500 text-slate-950 px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-cyan-400 transition-all">Explore Experience ↓</a>
-                <a href="https://www.linkedin.com/in/dnyaneshwar-handal/" target="_blank" class="border border-slate-700 px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-slate-900 transition-all text-slate-300">LinkedIn ↗</a>
+                <a href="https://www.linkedin.com/in/dnyaneshwar-handal" target="_blank" rel="noopener noreferrer" class="border border-slate-700 px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-slate-900 transition-all text-slate-300">LinkedIn ↗</a>
+                <a href="https://github.com/dnyaneshhandal" target="_blank" rel="noopener noreferrer" class="border border-slate-700 px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-slate-900 transition-all text-slate-300">GitHub ↗</a>
+                <a href="#contact" class="border border-cyan-500/50 text-cyan-400 px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-cyan-500/10 transition-all">Contact Me</a>
+            </div>
+
+            <!-- Key Impact Metrics Strip -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-2">
+                <div class="bg-slate-900/60 border border-slate-800 rounded-lg p-4">
+                    <div class="text-2xl font-bold text-cyan-400">9+ Yrs</div>
+                    <div class="text-xs text-slate-400 mt-1">Enterprise .NET Experience</div>
+                </div>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-lg p-4">
+                    <div class="text-2xl font-bold text-cyan-400">+35%</div>
+                    <div class="text-xs text-slate-400 mt-1">System Throughput Gain</div>
+                </div>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-lg p-4">
+                    <div class="text-2xl font-bold text-cyan-400">&lt;120ms</div>
+                    <div class="text-xs text-slate-400 mt-1">API Latency (Down from 450ms)</div>
+                </div>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-lg p-4">
+                    <div class="text-2xl font-bold text-cyan-400">-40%</div>
+                    <div class="text-xs text-slate-400 mt-1">Production Bug Reduction</div>
+                </div>
             </div>
 
             <!-- Profile Snapshot Code Box -->
             <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 font-code text-xs sm:text-sm text-slate-300 overflow-x-auto shadow-xl">
                 <div class="text-slate-500 mb-2">// developer.profile</div>
                 <p><span class="text-cyan-400">role</span>: <span class="text-emerald-300">".NET Technical Lead & Senior Software Engineer"</span>,</p>
-                <p><span class="text-cyan-400">focus</span>: <span class="text-emerald-300">"Microservices · Enterprise Architecture · APIs"</span>,</p>
-                <p><span class="text-cyan-400">backend</span>: <span class="text-emerald-300">"C# · ASP.NET Core · .NET 8"</span>,</p>
-                <p><span class="text-cyan-400">data</span>: <span class="text-emerald-300">"SQL Server · LLBLGen ORM · Query Optimization"</span>,</p>
-                <p><span class="text-cyan-400">security</span>: <span class="text-emerald-300">"JWT · Asynchronous Processing · SOLID"</span></p>
+                <p><span class="text-cyan-400">focus</span>: <span class="text-emerald-300">"Microservices · Distributed SQL · Enterprise Architecture"</span>,</p>
+                <p><span class="text-cyan-400">stack</span>: <span class="text-emerald-300">"C# · ASP.NET Core · .NET 8 · Blazor · Web API"</span>,</p>
+                <p><span class="text-cyan-400">data</span>: <span class="text-emerald-300">"SQL Server · LLBLGen ORM · EF Core · Query Optimization"</span>,</p>
+                <p><span class="text-cyan-400">cloud_security</span>: <span class="text-emerald-300">"Microsoft Azure · JWT · Async Multithreading · SOLID"</span></p>
             </div>
         </section>
 
@@ -63,49 +89,55 @@
             <div class="grid gap-6 sm:grid-cols-2">
                 <!-- Project 1 -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4 hover:border-cyan-500/50 transition-all">
-                    <div class="text-xs font-code text-cyan-400">01 · Government Portal</div>
+                    <div class="flex justify-between items-center text-xs font-code text-cyan-400">
+                        <span>01 · Government Portal</span>
+                        <span class="bg-cyan-500/10 border border-cyan-500/30 px-2 py-0.5 rounded text-[11px]">★ Star Employee Award</span>
+                    </div>
                     <h3 class="text-lg font-semibold text-white">MahaDBT State Government Portal</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Engineered critical backend modules serving high-volume traffic for students and farmers. Built complex T-SQL queries and stored procedures ensuring secure, peak-load data processing.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Designed and delivered critical backend modules serving high-volume traffic for students and farmers. Engineered complex T-SQL queries, stored procedures, and DevExpress MVC workflows for peak-load reliability.</p>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">ASP.NET</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">ASP.NET MVC</span>
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">C#</span>
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">SQL Server</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">DevExpress</span>
                     </div>
                 </div>
 
                 <!-- Project 2 -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4 hover:border-cyan-500/50 transition-all">
-                    <div class="text-xs font-code text-cyan-400">02 · Architecture Optimization</div>
+                    <div class="text-xs font-code text-cyan-400">02 · Architecture & Performance</div>
                     <h3 class="text-lg font-semibold text-white">Enterprise Microservices Migration</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Spearheaded the transition from monolithic bottlenecks to resilient ASP.NET Core microservices, boosting system throughput by 35% and cutting API latency under 120ms.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Spearheaded the transition from monolithic bottlenecks to resilient ASP.NET Core microservices, boosting throughput by <strong class="text-cyan-400">35%</strong>, cutting API latency from 450ms to <strong class="text-cyan-400">&lt;120ms</strong>, and reducing production bugs by <strong class="text-cyan-400">40%</strong>.</p>
                     <div class="flex flex-wrap gap-2 pt-2">
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">ASP.NET Core</span>
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">Microservices</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">LLBLGen ORM</span>
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">JWT</span>
                     </div>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4 hover:border-cyan-500/50 transition-all">
-                    <div class="text-xs font-code text-cyan-400">03 · High-Concurrency APIs</div>
+                    <div class="text-xs font-code text-cyan-400">03 · Enterprise Cloud & APIs</div>
                     <h3 class="text-lg font-semibold text-white">Mission-Critical REST APIs (TCS)</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Engineered highly concurrent RESTful APIs using ASP.NET Core, refactoring legacy codebases into modular, testable components using SOLID and Dependency Injection.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Engineered high-concurrency RESTful APIs in ASP.NET Core and .NET in Azure, refactoring legacy backend codebases into modular, testable components adhering to SOLID and Dependency Injection.</p>
                     <div class="flex flex-wrap gap-2 pt-2">
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">C#</span>
-                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">Web API</span>
-                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">Dependency Injection</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">ASP.NET Web API</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">Microsoft Azure</span>
                     </div>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4 hover:border-cyan-500/50 transition-all">
-                    <div class="text-xs font-code text-cyan-400">04 · Security & Biometrics</div>
-                    <h3 class="text-lg font-semibold text-white">Wealth Management Platform</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Developed core .NET modules and engineered an advanced video-based face-authentication feature for live detection to strengthen biometric security and user verification workflows.</p>
+                    <div class="text-xs font-code text-cyan-400">04 · FinTech & Biometric Security</div>
+                    <h3 class="text-lg font-semibold text-white">Wealth Management & Live Face Auth</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Developed insurance master and high-frequency wealth management modules using TDD, and engineered an advanced video-based face-authentication feature for live biometric detection.</p>
                     <div class="flex flex-wrap gap-2 pt-2">
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">.NET</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">TDD</span>
                         <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">Biometrics</span>
-                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">jQuery</span>
+                        <span class="bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded">SQL</span>
                     </div>
                 </div>
             </div>
@@ -115,21 +147,21 @@
         <section id="skills" class="space-y-8">
             <div class="border-b border-slate-800 pb-4">
                 <h2 class="text-2xl font-bold tracking-tight text-white">TECHNICAL TOOLKIT</h2>
-                <p class="text-sm text-slate-400 mt-1">Core technologies and backend infrastructure expertise.</p>
+                <p class="text-sm text-slate-400 mt-1">Core technologies, web frameworks, and backend infrastructure expertise.</p>
             </div>
 
             <div class="grid gap-6 sm:grid-cols-3">
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
-                    <h3 class="text-cyan-400 font-semibold text-sm">Backend & Architecture</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">C#, ASP.NET Core / Web API, Microservices, Domain-Driven Design, SOLID Principles, Dependency Injection, Asynchronous Programming.</p>
+                    <h3 class="text-cyan-400 font-semibold text-sm">Backend, Web & Architecture</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">C#, ASP.NET Core / Web API, Blazor, ASP.NET MVC, Microservices, Domain-Driven Design (DDD), SOLID Principles, Dependency Injection, Async Multithreading.</p>
                 </div>
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
                     <h3 class="text-cyan-400 font-semibold text-sm">Data & Performance</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">Microsoft SQL Server, LLBLGen ORM, Entity Framework Core, Advanced T-SQL, Schema Indexing, Query Optimization.</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">Microsoft SQL Server (MSSQL), LLBLGen ORM, Entity Framework Core, Advanced T-SQL, Stored Procedures, Schema Indexing, Query & Transaction Optimization.</p>
                 </div>
                 <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
-                    <h3 class="text-cyan-400 font-semibold text-sm">Security & Leadership</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">JWT Authentication, Secure Coding Standards, Microsoft Azure, Git / GitHub, Agile / Scrum, Code Review Leadership.</p>
+                    <h3 class="text-cyan-400 font-semibold text-sm">Cloud, Security & Leadership</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Microsoft Azure, JWT Authentication, Test-Driven Development (TDD), Secure Coding Standards, Git / GitHub, Agile / Scrum, Code Review Leadership & Mentorship.</p>
                 </div>
             </div>
         </section>
@@ -145,49 +177,65 @@
                 <div class="relative space-y-2">
                     <div class="absolute -left-[31px] top-1.5 w-3 h-3 bg-cyan-400 rounded-full border-4 border-slate-950"></div>
                     <span class="text-xs font-code text-cyan-400">June 2025 — Present</span>
-                    <h3 class="text-lg font-semibold text-white">.NET Technical Lead / Senior Software Engineer</h3>
+                    <h3 class="text-lg font-semibold text-white">Senior Software Engineer / .NET Technical Lead</h3>
                     <p class="text-sm text-slate-400">SmartIntelectual Tech Services LLP (Remote)</p>
-                    <p class="text-sm text-slate-300 pt-1">Driving architectural design, microservices scalability, database latency reduction, and technical mentorship across cross-functional teams.</p>
+                    <p class="text-sm text-slate-300 pt-1">Spearheaded microservices architecture (+35% throughput), enforced SOLID & code review standards (-40% bug rate), optimized LLBLGen/EF Core & SQL queries (&lt;120ms latency), and mentored developers.</p>
                 </div>
 
                 <div class="relative space-y-2">
                     <div class="absolute -left-[31px] top-1.5 w-3 h-3 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <span class="text-xs font-code text-cyan-400">May 2022 — March 2025</span>
                     <h3 class="text-lg font-semibold text-white">Sr. Software Engineer</h3>
-                    <p class="text-sm text-slate-400">Tata Consultancy Services (TCS)</p>
-                    <p class="text-sm text-slate-300 pt-1">Engineered high-concurrency REST APIs, refactored legacy systems, and delivered enterprise solutions within Agile environments.</p>
+                    <p class="text-sm text-slate-400">Tata Consultancy Services (TCS) · Remote</p>
+                    <p class="text-sm text-slate-300 pt-1">Engineered high-concurrency RESTful APIs in ASP.NET Core and .NET in Azure, refactored legacy codebases into modular components, and drove Agile cross-functional delivery.</p>
                 </div>
 
                 <div class="relative space-y-2">
                     <div class="absolute -left-[31px] top-1.5 w-3 h-3 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <span class="text-xs font-code text-cyan-400">March 2021 — April 2022</span>
                     <h3 class="text-lg font-semibold text-white">Sr. Software Developer</h3>
-                    <p class="text-sm text-slate-400">Birlasoft</p>
-                    <p class="text-sm text-slate-300 pt-1">Delivered high-volume government portal modules (MahaDBT) and optimized complex SQL databases. Recognized as Star Employee.</p>
+                    <p class="text-sm text-slate-400">Birlasoft · Pune Division</p>
+                    <p class="text-sm text-slate-300 pt-1">Delivered high-volume modules for the MahaDBT Maharashtra State Government portal and optimized complex T-SQL databases. Awarded Star Employee for multiple quarters.</p>
                 </div>
 
                 <div class="relative space-y-2">
                     <div class="absolute -left-[31px] top-1.5 w-3 h-3 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <span class="text-xs font-code text-cyan-400">May 2019 — February 2021</span>
                     <h3 class="text-lg font-semibold text-white">Software Associate</h3>
-                    <p class="text-sm text-slate-400">Netscribes (Mumbai)</p>
-                    <p class="text-sm text-slate-300 pt-1">Developed scalable ASP.NET MVC web applications and optimized relational backend data operations.</p>
+                    <p class="text-sm text-slate-400">Netscribes · Mumbai</p>
+                    <p class="text-sm text-slate-300 pt-1">Developed scalable ASP.NET MVC web applications using C# and Entity Framework, and authored optimized SQL Server views and stored procedures.</p>
                 </div>
 
                 <div class="relative space-y-2">
                     <div class="absolute -left-[31px] top-1.5 w-3 h-3 bg-slate-700 rounded-full border-4 border-slate-950"></div>
                     <span class="text-xs font-code text-cyan-400">February 2018 — May 2019</span>
                     <h3 class="text-lg font-semibold text-white">Software Developer</h3>
-                    <p class="text-sm text-slate-400">Sushil Finance (Mumbai)</p>
-                    <p class="text-sm text-slate-300 pt-1">Built high-frequency wealth management modules and advanced biometric face-authentication security features.</p>
+                    <p class="text-sm text-slate-400">Sushil Finance · Mumbai</p>
+                    <p class="text-sm text-slate-300 pt-1">Built high-frequency wealth management and insurance master modules using TDD, plus an advanced video-based face-authentication feature for live biometric detection.</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="space-y-6 bg-slate-900 border border-slate-800 rounded-xl p-8 text-center">
+            <h2 class="text-2xl font-bold tracking-tight text-white">Let's Build Scalable Systems Together</h2>
+            <p class="text-slate-400 text-sm max-w-md mx-auto">
+                Open to remote Senior .NET Developer, Technical Lead, and distributed backend engineering roles with product-driven teams.
+            </p>
+            <div class="pt-2 flex flex-wrap justify-center gap-4">
+                <a href="mailto:dnyanes01@gmail.com" class="bg-cyan-500 text-slate-950 px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-cyan-400 transition-all">Email: dnyanes01@gmail.com ↗</a>
+                <a href="https://www.linkedin.com/in/dnyaneshwar-handal" target="_blank" rel="noopener noreferrer" class="border border-slate-700 px-6 py-2.5 rounded-lg font-medium text-sm hover:bg-slate-800 transition-all text-slate-300">LinkedIn Profile ↗</a>
             </div>
         </section>
 
         <!-- Footer -->
         <footer class="border-t border-slate-800 pt-8 pb-12 text-center text-xs text-slate-500 space-y-2">
-            <p>© 2026 Dnyaneshwar Handal · .NET Technical Lead · Pune District, Maharashtra, India</p>
-            <p><a href="https://www.linkedin.com/in/dnyaneshwar-handal/" target="_blank" class="text-cyan-400 hover:underline">Connect on LinkedIn</a></p>
+            <p>© 2026 Dnyaneshwar Handal · .NET Technical Lead · University of Pune · Maharashtra, India</p>
+            <p>
+                <a href="https://www.linkedin.com/in/dnyaneshwar-handal" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:underline">LinkedIn</a> · 
+                <a href="https://github.com/dnyaneshhandal" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:underline">GitHub</a> · 
+                <a href="mailto:dnyanes01@gmail.com" class="text-cyan-400 hover:underline">dnyanes01@gmail.com</a>
+            </p>
         </footer>
 
     </main>
